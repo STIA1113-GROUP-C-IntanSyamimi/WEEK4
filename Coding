@@ -8,7 +8,7 @@ public class Customer {
     double discount = 0;
     double price =0;
     double discount2 = 0;
-    double price2 =0;
+    double price4 =0;
     
     //Ask customer number of item
     System.out.println("Please enter your number of item.Your number of item must be less or equal to 3 ");
@@ -62,8 +62,8 @@ public class Customer {
      if(totalprice<100.00)
         	discount2= (10/100)*totalprice;
             System.out.println(" The value of discount is "+ discount2);
-            price2= (90/100)*totalprice;
-            System.out.println(" The total price is "+ price2);  
+            price4= (90/100)*totalprice;
+            System.out.println(" The total price is "+ price4);  
   
         
         
