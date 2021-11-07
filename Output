@@ -1,0 +1,25 @@
+Please enter your number of item.Your number of item must be less or equal to 3 
+3
+Your number of item is 3
+Please enter the price of first item
+32.90
+The price of first item is 32.9
+Please enter the quantity of first item.
+2
+Your quantity of first item is 2
+Please enter the price of second item
+40.0
+The price of second item is 40.0
+Please enter the quantity of second item.
+1
+Your quantity of second item is 1
+Please enter the price of third item
+12
+The price of third item is 12.0
+Please enter the quantity of first item.
+3
+Your quantity of third item is 3
+ The value of discount is 0.0
+ The total price is 0.0
+ The value of discount is 0.0
+ The total price is 0.0
