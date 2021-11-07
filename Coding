@@ -1,0 +1,76 @@
+package assignment;
+import java.util.Scanner;
+public class Customer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    Scanner sc= new Scanner(System.in);
+    double discount = 0;
+    double price =0;
+    double discount2 = 0;
+    double price2 =0;
+    
+    //Ask customer number of item
+    System.out.println("Please enter your number of item.Your number of item must be less or equal to 3 ");
+    int numitem=sc.nextInt();
+    System.out.println("Your number of item is "+ numitem);
+    
+    //Ask the quantity of first item and the price
+    System.out.println("Please enter the price of first item");
+    double price1=sc.nextDouble();
+    System.out.println("The price of first item is "+price1);
+    
+    System.out.println("Please enter the quantity of first item.");
+    int quantityfirstitem=sc.nextInt();
+    System.out.println("Your quantity of first item is "+ quantityfirstitem);
+    
+    //calculate the price
+    double totalprice1= price1*quantityfirstitem;
+    
+  //Ask the quantity of second item and the price
+    System.out.println("Please enter the price of second item");
+    double price2=sc.nextDouble();
+    System.out.println("The price of second item is "+price2);
+    
+    System.out.println("Please enter the quantity of second item.");
+    int quantityseconditem=sc.nextInt();
+    System.out.println("Your quantity of second item is "+ quantityseconditem);
+    
+    //calculate the price
+    double totalprice2= price2*quantityseconditem;
+    
+  //Ask the quantity of third item and the price
+    System.out.println("Please enter the price of third item");
+    double price3=sc.nextDouble();
+    System.out.println("The price of third item is "+price3);
+    
+    System.out.println("Please enter the quantity of first item.");
+    int quantitythirditem=sc.nextInt();
+    System.out.println("Your quantity of third item is "+ quantitythirditem);
+    
+    //calculate the price
+    double totalprice3= price3*quantitythirditem;
+    
+    double totalprice= totalprice1+totalprice2+totalprice3;
+    
+    if(totalprice>100.00)
+    	discount= (20/100)*totalprice;
+        System.out.println(" The value of discount is "+ discount);
+        price= (80/100)*totalprice;
+        System.out.println(" The total price is "+ price);
+        
+     if(totalprice<100.00)
+        	discount2= (10/100)*totalprice;
+            System.out.println(" The value of discount is "+ discount2);
+            price2= (90/100)*totalprice;
+            System.out.println(" The total price is "+ price2);  
+  
+        
+        
+
+        
+    
+
+	}
+
+}
